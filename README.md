@@ -3,8 +3,8 @@ GTIN / EAN Manager
 
 [![npm version](https://img.shields.io/npm/v/gtin-manager.svg?style=flat-square)](https://npmjs.com/package/gtin-manager)
 [![javascript standard style](https://img.shields.io/badge/code%20style-standard-blue.svg?style=flat-square)](http://standardjs.com/)
-[![travis build](https://img.shields.io/travis/xbpf/gtin/master.svg?style=flat-square)](https://travis-ci.org/riennevaplus/gtin-manager)
-[![david dependencies](https://david-dm.org/xbpf/gtin.svg?style=flat-square)](https://david-dm.org/riennevaplus/gtin-manager)
+[![travis build](https://img.shields.io/travis/riennevaplus/gtin-manager/master.svg?style=flat-square)](https://travis-ci.org/riennevaplus/gtin-manager)
+[![david dependencies](https://david-dm.org/riennevaplus/gtin-manager.svg?style=flat-square)](https://david-dm.org/riennevaplus/gtin-manager)
 
 
 Generates EANs / GTINs for a given Global Company Prefix (GPC).
