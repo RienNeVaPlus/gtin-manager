@@ -31,7 +31,6 @@ const manager = new GTINManager('12345678');
 Returns the amount of possible GTINs that can be created from the current GCP.
 
 ```ts
-const manager = new GTINManager('12345678');
 manager.contingent === 10000 // true
 ```
 
@@ -39,7 +38,7 @@ manager.contingent === 10000 // true
 `manager.index`
 ---
 
-Returns GTIN / EAN for an index (which has to be inside the bounds of `generator.contingent`)
+Returns GTIN / EAN for an index (which has to be inside the bounds of `manager.contingent`)
 
 ```ts
 manager.index(0) === '1234567800004'    // true
