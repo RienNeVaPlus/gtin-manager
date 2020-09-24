@@ -1,0 +1,56 @@
+{
+  "name": "gtin-manager",
+  "version": "1.0.0",
+  "description": "GTIN Manager",
+  "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "test": "standardx src/**/*.ts && tsc --noEmit && jest --collectCoverage",
+    "prepare": "tsc"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/riennevaplus/gtin-manager.git"
+  },
+  "keywords": [
+    "GTIN",
+    "EAN",
+    "generator",
+    "list",
+    "GCP"
+  ],
+  "author": "RienNeVaPlus <?@rienneva.plus>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/riennevaplus/gtin-manager/issues"
+  },
+  "homepage": "https://github.com/riennevaplus/gtin-manager",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/jest": "^26.0.7",
+    "@typescript-eslint/eslint-plugin": "^3.7.1",
+    "@typescript-eslint/parser": "^3.7.1",
+    "babel-jest": "^26.1.0",
+    "coveralls": "^3.1.0",
+    "jest": "^26.1.0",
+    "standardx": "^5.0.0",
+    "ts-jest": "^26.1.4",
+    "typescript": "^3.9.7"
+  },
+  "standardx": {
+    "env": [
+      "jest"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint/eslint-plugin"
+    ]
+  }
+}
