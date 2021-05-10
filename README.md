@@ -21,7 +21,7 @@ Create a generator instance using a GCP (Global Company Prefix) provided by GS1.
 ```ts
 import { GTINManager } from 'gtin-manager'
 
-const manager = new GTINManager('12345678');
+const manager = new GTINManager('12345678')
 ```
 
 <a id='manager-contingent'></a>
@@ -34,7 +34,7 @@ Returns the amount of possible GTINs that can be created from the current GCP.
 manager.contingent === 10000 // true
 ```
 
-<a id='generator-index'></a>
+<a id='manager-index'></a>
 `manager.index`
 ---
 
