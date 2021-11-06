@@ -27,3 +27,5 @@ export class GTINManager {
     return value + generateCheckDigit(value)
   }
 }
+
+export default GTINManager
