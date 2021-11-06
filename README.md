@@ -3,7 +3,7 @@
 <h1 align="center">🏷️ GTIN Manager</h1>
 
 <p align="center">
-  Generates and validates <b>G</b>lobal <b>T</b>rade <b>I</b>tem <b>N</b>umbers (formerly known as <b>EAN</b>s) for a given <b>G</b>lobal <b>C</b>ompany <b>P</b>refix.
+  Generates <b>G</b>lobal <b>T</b>rade <b>I</b>tem <b>N</b>umbers (formerly known as <b>EAN</b>s) for a given <b>G</b>lobal <b>C</b>ompany <b>P</b>refix.
 </p>
 
 <p align="center">
@@ -30,9 +30,9 @@ yarn add gtin-manager
 Create a generator instance using a GCP ([Global Company Prefix](https://www.gs1ie.org/standards/identification/global-company-prefix-gcp/)) provided by [GS1](https://www.gs1-germany.de/).
 
 ```ts
-import { GTINManager } from 'gtin-manager'
+import Manager from 'gtin-manager'
 
-const manager = new GTINManager('12345678')
+const manager = new Manager('12345678')
 ```
 
 <a id='manager-contingent'></a>
