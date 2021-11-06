@@ -3,7 +3,7 @@
 <h1 align="center">🏷️ GTIN Manager</h1>
 
 <p align="center">
-  Generates and validates <b>G</b>lobal <b>T</b>rade <b>I</b>tem <b>N</b>umbers - formerly known as <b>EAN</b>s - for a given <b>G</b>lobal <b>C</b>ompany <b>P</b>refix
+  Generates and validates <b>G</b>lobal <b>T</b>rade <b>I</b>tem <b>N</b>umbers (formerly known as <b>EAN</b>s) for a given <b>G</b>lobal <b>C</b>ompany <b>P</b>refix.
 </p>
 
 <p align="center">
