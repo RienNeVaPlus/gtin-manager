@@ -1,6 +1,6 @@
 {
   "name": "gtin-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "GTIN Manager",
   "main": "dist/index.js",
   "files": [
@@ -33,16 +33,16 @@
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.10.5",
-    "@babel/preset-typescript": "^7.10.4",
-    "@types/jest": "^26.0.7",
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/jest": "^27.0.2",
     "@typescript-eslint/eslint-plugin": "^3.7.1",
     "@typescript-eslint/parser": "^3.7.1",
-    "babel-jest": "^26.1.0",
-    "coveralls": "^3.1.0",
-    "jest": "^26.1.0",
-    "standardx": "^5.0.0",
-    "ts-jest": "^26.1.4",
-    "typescript": "^3.9.7"
+    "babel-jest": "^27.3.1",
+    "coveralls": "^3.1.1",
+    "jest": "^27.3.1",
+    "standardx": "^7.0.0",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.1.6"
   },
   "standardx": {
     "env": [
